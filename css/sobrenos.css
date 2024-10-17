@@ -1,0 +1,134 @@
+.cont-nav {
+    display: flex;
+    padding-left: 6%;
+    justify-content: flex-end;
+}
+.btn-green {
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #00AD6E;
+    cursor: pointer;
+}
+
+.btn-green:hover {
+    background-color: #58ffc2;
+}
+.logo_size {
+    height: 10%;
+    width: 10%;
+}
+
+nav .nav-item{
+    color: black;
+
+}
+nav .nav-item:hover{
+    color: rgb(117, 117, 117);
+
+}
+.icon-click{
+    margin: 0.5em;
+    border-radius: 0.2em;
+    padding: 0.3em 0.5em;
+    width: 3%;
+
+    color: #14ff14;
+    background-color: #00AD6E;
+    cursor: pointer;
+}
+
+.icon-click:hover{
+    background-color: #58ffc2;
+    cursor: pointer;
+}
+.filtro{
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1C5841;
+    cursor: pointer;
+}
+
+.filtro:hover {
+    background-color: #58ffc2;
+}
+.grade1{
+    background-color: #F5E0A5;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+.imagem1{
+    height: 400px;
+    width: 400px;
+}
+.texto1{
+    font-size: 25px;
+}
+.grade2{
+    background-color: #1C5841;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 100px;
+    flex-wrap: nowrap;
+
+}
+.imagem2{
+    height: 700px;
+    width: 600px;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    
+}
+.texto2{
+    font-size: 25px;
+    color: white;
+    padding-right: 20%;
+}
+.botao_plano{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.estilo_botao{
+    font-size: 35px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #D46240;
+    cursor: pointer;
+
+}
+.estilo_botao:hover{
+    background-color: #F5E0A5;
+    cursor: pointer;
+    color: black;
+}

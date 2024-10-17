@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-green {
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #00AD6E;
+    cursor: pointer;
+}
+.btn-dark-green{
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1C5841;
+    cursor: pointer;
+}
+.btn-dark-green:hover {
+    background-color: #58ffc2;
+    color: black;
+}
+.btn-green:hover {
+    background-color: #58ffc2;
+}
+
+.icon-click{
+    margin: 0.5em;
+    border-radius: 0.2em;
+    padding: 0.3em 0.5em;
+    width: 3%;
+
+    color: #14ff14;
+    background-color: #00AD6E;
+    cursor: pointer;
+}
+
+.icon-click:hover{
+    background-color: #58ffc2;
+    cursor: pointer;
+}
+
+
+.btn-orange {
+    font-size: 12px;
+    font-family: 'poppins';
+    font-weight: bold;
+    padding: 0.5em 1em;
+    margin: 0.205em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #F8A764;
+    cursor: pointer;
+}
+
+.btn-orange:hover {
+    background-color: #ffd754;
+}
+
+.to_right {
+    display: flex;
+    justify-content: right;
+}
+
+.back-img-main{
+    background-image: url('img/img_inicial.jpg');
+    background-size: cover;
+  
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 80px 200px;
+}
+
+.container-green {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C5841;
+    padding: 10px;
+
+    height: fit-content;
+    padding-top: 5%;
+    padding: 32px;
+}
+
+
+.container-yellow {
+    background-color: #F5DFa5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container-gen {
+    display: flex;
+    flex-direction: row;
+
+
+}
+.home-img-size {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+  }
+  
+
+.home-img-size_2 {
+    display: flex;
+    justify-content: right;
+    width: 60%;
+    padding-left: 16%;
+    padding-top: 10%;
+
+}
+
+.home_text {
+    color: white;
+    padding-right: 6%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.card-2-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.card-2{
+    width: 325px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px #6e6e6e;
+    margin: 20px;
+    padding-top: 20px;
+    min-height: 400px;
+}
+
+.card-2-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 35px;
+    margin-bottom: 10px;
+    
+}
+
+.card-2-content h2{
+    padding-left: 55px;
+    font-size: medium;
+   
+}
+
+.card-2-content h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-2-content .btn{
+    width: 100px;
+    font-size: 15px;
+    font-family: 'poppins';
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.card-2-content .btn:hover {
+    background-color: #fff8db;
+}
+
+
+.card-2-content p{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.filtro{
+    font-size: 12px;
+    font-family: 'chillax';
+    font-weight: bold;
+    padding: 0.5em 2em;
+    margin: 0.25em;
+    border-radius: 0.8em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1C5841;
+    cursor: pointer;
+}
+
+.filtro:hover {
+    background-color: #58ffc2;
+}
+.imagem{
+    width: 100%;
+    height: 800px;
+    
+}
